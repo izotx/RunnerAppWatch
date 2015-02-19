@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MyCustomViews.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>RunnerApp Watch App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>RunnerApp WatchKit Extension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>RunnerApp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2422AD2F1A7DCDC1004F3A03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2422AD391A7DCDC1004F3A03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8250F7271A6A5AB1007962C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8250F73F1A6A5AB1007962C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82EBFD581A6BF0F000AC002F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82EBFD6A1A6BF0F100AC002F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
