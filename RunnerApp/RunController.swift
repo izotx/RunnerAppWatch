@@ -191,7 +191,7 @@ class RunController: NSObject {
     }
     
     func createNewRun(){
-        var appDel: AppDelegate = (UIApplication.sharedApplication().delegate as AppDelegate)
+        var appDel: AppDelegate = (UIApplication.sharedApplication().delegate as! AppDelegate)
         var context: NSManagedObjectContext = appDel.managedObjectContext!
  }
     
@@ -244,7 +244,7 @@ class RunController: NSObject {
         
         if(keyPath == "speed"){
             //update speed
-            var rawSpeed: Double  = change[NSKeyValueChangeNewKey] as Double
+            var rawSpeed: Double  = change[NSKeyValueChangeNewKey] as! Double
             self.speed = rawSpeed
             var localizedSpeed = RunController.calculateSpeed(self.speed, mode:self.speedMode)
           
@@ -260,7 +260,7 @@ class RunController: NSObject {
             //self.runController.distance
             if(self.state != runstate.active) { return }
             
-            var newDistance: Double  = change[NSKeyValueChangeNewKey] as Double
+            var newDistance: Double  = change[NSKeyValueChangeNewKey] as! Double
             self.distance = self.distance + newDistance
                 dataManager.updateDistance(self.distance)
             
@@ -275,7 +275,7 @@ class RunController: NSObject {
     
         }
         if(keyPath == "currentLocation"){
-            var newLocation: CLLocation  = change[NSKeyValueChangeNewKey] as CLLocation
+            var newLocation: CLLocation  = change[NSKeyValueChangeNewKey] as! CLLocation
             self.dataManager.updateLocation(newLocation)
         }
         

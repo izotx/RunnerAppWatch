@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <deployment version="2048" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -532,22 +532,22 @@
                                 <exclude reference="ARf-nT-Qai"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="AqY-Mn-bza"/>
-                                <exclude reference="cwa-T5-M6g"/>
+                                <exclude reference="klX-uo-WZC"/>
                                 <exclude reference="3vs-tJ-epv"/>
                                 <exclude reference="Noh-4N-wcS"/>
                                 <exclude reference="sk0-ay-DAU"/>
                                 <exclude reference="a19-1f-tLT"/>
+                                <exclude reference="AqY-Mn-bza"/>
+                                <exclude reference="cwa-T5-M6g"/>
+                                <exclude reference="9ca-lv-zaj"/>
+                                <exclude reference="LO2-Bn-HOk"/>
+                                <exclude reference="e5k-e7-RmX"/>
+                                <exclude reference="cDv-At-bh8"/>
+                                <exclude reference="gMC-HL-VE6"/>
                                 <exclude reference="cxl-94-neo"/>
                                 <exclude reference="rZZ-P7-Wq1"/>
                                 <exclude reference="tw9-YI-Y7t"/>
                                 <exclude reference="yyT-PX-FOY"/>
-                                <exclude reference="9ca-lv-zaj"/>
-                                <exclude reference="LO2-Bn-HOk"/>
-                                <exclude reference="e5k-e7-RmX"/>
-                                <exclude reference="klX-uo-WZC"/>
-                                <exclude reference="cDv-At-bh8"/>
-                                <exclude reference="gMC-HL-VE6"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
@@ -560,22 +560,22 @@
                                 <include reference="ARf-nT-Qai"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="AqY-Mn-bza"/>
-                                <include reference="cwa-T5-M6g"/>
+                                <include reference="klX-uo-WZC"/>
                                 <include reference="3vs-tJ-epv"/>
                                 <include reference="Noh-4N-wcS"/>
                                 <include reference="sk0-ay-DAU"/>
                                 <include reference="a19-1f-tLT"/>
+                                <include reference="AqY-Mn-bza"/>
+                                <include reference="cwa-T5-M6g"/>
+                                <exclude reference="9ca-lv-zaj"/>
+                                <include reference="LO2-Bn-HOk"/>
+                                <include reference="e5k-e7-RmX"/>
+                                <include reference="cDv-At-bh8"/>
+                                <include reference="gMC-HL-VE6"/>
                                 <include reference="cxl-94-neo"/>
                                 <include reference="rZZ-P7-Wq1"/>
                                 <exclude reference="tw9-YI-Y7t"/>
                                 <include reference="yyT-PX-FOY"/>
-                                <exclude reference="9ca-lv-zaj"/>
-                                <include reference="LO2-Bn-HOk"/>
-                                <include reference="e5k-e7-RmX"/>
-                                <include reference="klX-uo-WZC"/>
-                                <include reference="cDv-At-bh8"/>
-                                <include reference="gMC-HL-VE6"/>
                             </mask>
                         </variation>
                     </view>
@@ -707,7 +707,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="02/15/2015" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VoG-W0-qTc">
                                                     <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="heightClass=regular" fixedFrame="YES">
                                                         <rect key="frame" x="15" y="20" width="174" height="21"/>
@@ -716,7 +716,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.0 miles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1y-j0-Q91">
                                                     <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="heightClass=regular" fixedFrame="YES">
                                                         <rect key="frame" x="120" y="20" width="69" height="21"/>
@@ -725,7 +725,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zmn-t4-Gt9">
                                                     <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="heightClass=regular" fixedFrame="YES">
                                                         <rect key="frame" x="219" y="20" width="58" height="21"/>

@@ -14,6 +14,8 @@ class ViewController: UIViewController, RunProtocol {
     private var runController:RunController = RunController()
     private var mapController:MapViewController?
     private var runHistory:RunsViewController?
+
+    
     
     @IBOutlet weak var speedometer: SpeedomoterView!
     @IBOutlet weak var startButtonOutlet: startButton!
@@ -25,6 +27,8 @@ class ViewController: UIViewController, RunProtocol {
     @IBOutlet weak var mapButtonOutlet: mphButton!
     @IBOutlet weak var historyButton: mphButton!
   
+    
+    
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
@@ -181,6 +185,14 @@ class ViewController: UIViewController, RunProtocol {
 
     
     @IBAction func metricMode(sender: AnyObject) {
+        //var mm = MMWormhole
+        //self = super.init()
+        var wormhole = MMWormhole(applicationGroupIdentifier: "group.com.izotx.runnerApp", optionalDirectory: "shared_directory")
+        
+          var object: AnyObject! =  wormhole.messageWithIdentifier("key")
+        
+            println("any object \(object)")
+
         self.runController.changeMeasurements()
         //change the measurements
 

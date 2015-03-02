@@ -16,7 +16,7 @@ protocol LocationUpdated{
 }
 class DataController{
     var currentRun:Run?
-    var delegate :AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+    var delegate :AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
     var observer:LocationUpdated?
 
     init() {
@@ -36,7 +36,7 @@ class DataController{
     
     func createNewRun()-> Run{
         var description: NSEntityDescription = NSEntityDescription.entityForName("Run", inManagedObjectContext: delegate.managedObjectContext!)!
-        var object = NSManagedObject(entity: description, insertIntoManagedObjectContext: delegate.managedObjectContext)  as Run
+        var object = NSManagedObject(entity: description, insertIntoManagedObjectContext: delegate.managedObjectContext)  as! Run
         saveToDatabase()
 
         return object
@@ -44,7 +44,7 @@ class DataController{
     
     func createNewLocation()-> Location{
         var description: NSEntityDescription = NSEntityDescription.entityForName("Location", inManagedObjectContext: delegate.managedObjectContext!)!
-        var object = NSManagedObject(entity: description, insertIntoManagedObjectContext: delegate.managedObjectContext) as Location
+        var object = NSManagedObject(entity: description, insertIntoManagedObjectContext: delegate.managedObjectContext)as! Location
 
         return object
     }

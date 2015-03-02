@@ -112,7 +112,7 @@ class MapViewController: UIViewController, LocationUpdated, MKMapViewDelegate{
         if children.count == 0 {return}
         
         for(var i = 0; i<children.count; i++) {
-            var loc:Location = children.objectAtIndex(i) as Location
+            var loc:Location = children.objectAtIndex(i) as! Location
             
             var loc2d =   CLLocationCoordinate2D(latitude: CLLocationDegrees(loc.latitude!.floatValue), longitude: CLLocationDegrees(loc.longitude!.floatValue))
             points.append(loc2d)

@@ -10,6 +10,8 @@
 	<string>RunnerApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>0623B81A8F32F7F2EA405D1743A42F514B7B27C6</key>
+		<string>https://github.com/DJMobileInc/RunnerAppWatch.git</string>
 		<key>41E6B9D3D00AF0AB6AD3726260AEF41DB4C74083</key>
 		<string>https://github.com/DJMobileInc/RunnerApp.git</string>
 	</dict>
@@ -17,15 +19,17 @@
 	<string>RunnerApp.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>41E6B9D3D00AF0AB6AD3726260AEF41DB4C74083</key>
+		<key>0623B81A8F32F7F2EA405D1743A42F514B7B27C6</key>
 		<string>../..</string>
+		<key>41E6B9D3D00AF0AB6AD3726260AEF41DB4C74083</key>
+		<string>../../../RunnerApp</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/DJMobileInc/RunnerApp.git</string>
+	<string>https://github.com/DJMobileInc/RunnerAppWatch.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>41E6B9D3D00AF0AB6AD3726260AEF41DB4C74083</string>
+	<string>0623B81A8F32F7F2EA405D1743A42F514B7B27C6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>41E6B9D3D00AF0AB6AD3726260AEF41DB4C74083</string>
 			<key>IDESourceControlWCCName</key>
 			<string>RunnerApp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0623B81A8F32F7F2EA405D1743A42F514B7B27C6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RunnerAppWatch</string>
 		</dict>
 	</array>
 </dict>

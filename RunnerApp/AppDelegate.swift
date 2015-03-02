@@ -13,9 +13,24 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var wormholeMesanger:WormholeMessanger?;
+    var wormhole:MMWormhole?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        self.wormhole = MMWormhole(applicationGroupIdentifier: "group.com.izotx.runnerApp", optionalDirectory: "shared_directory");
+        self.wormhole!.listenForMessageWithIdentifier("key", listener: {(object:AnyObject!) -> Void in
+            println("\(object)")
+var alert =            UIAlertView(title: "", message: "", delegate: nil, cancelButtonTitle: "", otherButtonTitles: "", "");
+            
+          
+            
+            alert.show()
+                       
+            
+        })
+
+        
         // Override point for customization after application launch.
         return true
     }
@@ -49,7 +64,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     lazy var applicationDocumentsDirectory: NSURL = {
         // The directory the application uses to store the Core Data store file. This code uses a directory named "com.izotx..RunnerApp" in the application's documents Application Support directory.
         let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
-        return urls[urls.count-1] as NSURL
+        return urls[urls.count-1] as! NSURL
     }()
 
     lazy var managedObjectModel: NSManagedObjectModel = {

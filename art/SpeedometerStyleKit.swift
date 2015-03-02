@@ -85,7 +85,7 @@ public class SpeedometerStyleKit : NSObject {
 
         //// topLabelCG Drawing
         let topLabelCGRect = CGRectMake(view_container.minX + floor(view_container.width * 0.07292 + 0.5), view_container.minY + floor(view_container.height * 0.21875 + 0.5), floor(view_container.width * 0.93056 + 0.5) - floor(view_container.width * 0.07292 + 0.5), floor(view_container.height * 0.61458 + 0.5) - floor(view_container.height * 0.21875 + 0.5))
-        let topLabelCGStyle = NSMutableParagraphStyle.defaultParagraphStyle().mutableCopy() as NSMutableParagraphStyle
+        let topLabelCGStyle = NSMutableParagraphStyle.defaultParagraphStyle().mutableCopy() as! NSMutableParagraphStyle
         topLabelCGStyle.alignment = NSTextAlignment.Center
 
         let topLabelCGFontAttributes = [NSFontAttributeName: UIFont(name: "Helvetica", size: topLabelFontSize)!, NSForegroundColorAttributeName: whiteRectColor, NSParagraphStyleAttributeName: topLabelCGStyle]
@@ -99,7 +99,7 @@ public class SpeedometerStyleKit : NSObject {
 
         //// bottomLabelCG Drawing
         let bottomLabelCGRect = CGRectMake(view_container.minX + floor(view_container.width * 0.18403 + 0.5), view_container.minY + floor(view_container.height * 0.61458 + 0.5), floor(view_container.width * 0.82639 + 0.5) - floor(view_container.width * 0.18403 + 0.5), floor(view_container.height * 0.78472 + 0.5) - floor(view_container.height * 0.61458 + 0.5))
-        let bottomLabelCGStyle = NSMutableParagraphStyle.defaultParagraphStyle().mutableCopy() as NSMutableParagraphStyle
+        let bottomLabelCGStyle = NSMutableParagraphStyle.defaultParagraphStyle().mutableCopy() as! NSMutableParagraphStyle
         bottomLabelCGStyle.alignment = NSTextAlignment.Center
 
         let bottomLabelCGFontAttributes = [NSFontAttributeName: UIFont(name: "Helvetica", size: bottomLabelExpression)!, NSForegroundColorAttributeName: whiteRectColor, NSParagraphStyleAttributeName: bottomLabelCGStyle]

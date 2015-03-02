@@ -46,7 +46,7 @@ class RunsViewController:UIViewController, UITableViewDelegate, UITableViewDataS
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
-        var cell =  tableView.dequeueReusableCellWithIdentifier("runid") as RunCell
+        var cell =  tableView.dequeueReusableCellWithIdentifier("runid") as! RunCell
 
         var run = runs[indexPath.row]
         if let nr = run.distance {

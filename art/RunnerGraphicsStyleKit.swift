@@ -59,7 +59,7 @@ public class RunnerGraphicsStyleKit : NSObject {
         
         //// topLabelCG Drawing
         let topLabelCGRect = CGRectMake(view_container.minX + floor(view_container.width * 0.07007 + 0.5), view_container.minY + floor(view_container.height * 0.20694 - 0.11) + 0.61, floor(view_container.width * 0.93095 + 0.5) - floor(view_container.width * 0.07007 + 0.5), floor(view_container.height * 0.60078 - 0.11) - floor(view_container.height * 0.20694 - 0.11))
-        let topLabelCGStyle = NSMutableParagraphStyle.defaultParagraphStyle().mutableCopy() as NSMutableParagraphStyle
+        let topLabelCGStyle = NSMutableParagraphStyle.defaultParagraphStyle().mutableCopy() as!NSMutableParagraphStyle
         topLabelCGStyle.alignment = NSTextAlignment.Center
         
         let topLabelCGFontAttributes = [NSFontAttributeName: UIFont(name: "Helvetica", size: topLabelFontSize)!, NSForegroundColorAttributeName: whiteRectColor, NSParagraphStyleAttributeName: topLabelCGStyle]
@@ -73,7 +73,7 @@ public class RunnerGraphicsStyleKit : NSObject {
         
         //// bottomLabelCG Drawing
         let bottomLabelCGRect = CGRectMake(view_container.minX + floor(view_container.width * 0.17685 + 0.5), view_container.minY + floor(view_container.height * 0.60078 - 0.11) + 0.61, floor(view_container.width * 0.84086 + 0.5) - floor(view_container.width * 0.17685 + 0.5), floor(view_container.height * 0.77100 - 0.11) - floor(view_container.height * 0.60078 - 0.11))
-        let bottomLabelCGStyle = NSMutableParagraphStyle.defaultParagraphStyle().mutableCopy() as NSMutableParagraphStyle
+        let bottomLabelCGStyle = NSMutableParagraphStyle.defaultParagraphStyle().mutableCopy() as! NSMutableParagraphStyle
         bottomLabelCGStyle.alignment = NSTextAlignment.Center
         
         let bottomLabelCGFontAttributes = [NSFontAttributeName: UIFont(name: "Helvetica", size: bottomLabelExpression)!, NSForegroundColorAttributeName: whiteRectColor, NSParagraphStyleAttributeName: bottomLabelCGStyle]
@@ -123,7 +123,7 @@ public class RunnerGraphicsStyleKit : NSObject {
         
         //// topLabelCG Drawing
         let topLabelCGRect = CGRectMake(view_container.minX + floor(view_container.width * 0.07007 + 0.5), view_container.minY + floor(view_container.height * 0.34044 - 0.11) + 0.61, floor(view_container.width * 0.92428 + 0.5) - floor(view_container.width * 0.07007 + 0.5), floor(view_container.height * 0.64417 - 0.11) - floor(view_container.height * 0.34044 - 0.11))
-        let topLabelCGStyle = NSMutableParagraphStyle.defaultParagraphStyle().mutableCopy() as NSMutableParagraphStyle
+        let topLabelCGStyle = NSMutableParagraphStyle.defaultParagraphStyle().mutableCopy() as! NSMutableParagraphStyle
         topLabelCGStyle.alignment = NSTextAlignment.Center
         
         let topLabelCGFontAttributes = [NSFontAttributeName: UIFont(name: "Helvetica", size: singleLabelSizeExpression)!, NSForegroundColorAttributeName: topLabelColor, NSParagraphStyleAttributeName: topLabelCGStyle]
@@ -467,7 +467,7 @@ public class RunnerGraphicsStyleKit : NSObject {
         
         //// topLabelCG Drawing
         let topLabelCGRect = CGRectMake(view_container.minX + floor(view_container.width * 0.07007 + 0.5), view_container.minY + floor(view_container.height * 0.34044 - 0.11) + 0.61, floor(view_container.width * 0.92428 + 0.5) - floor(view_container.width * 0.07007 + 0.5), floor(view_container.height * 0.64417 - 0.11) - floor(view_container.height * 0.34044 - 0.11))
-        let topLabelCGStyle = NSMutableParagraphStyle.defaultParagraphStyle().mutableCopy() as NSMutableParagraphStyle
+        let topLabelCGStyle = NSMutableParagraphStyle.defaultParagraphStyle().mutableCopy() as! NSMutableParagraphStyle
         topLabelCGStyle.alignment = NSTextAlignment.Center
         
         let topLabelCGFontAttributes = [NSFontAttributeName: UIFont(name: "Helvetica", size: singleLabelSizeExpression)!, NSForegroundColorAttributeName: topLabelColor, NSParagraphStyleAttributeName: topLabelCGStyle]
